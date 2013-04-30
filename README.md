@@ -1,4 +1,4 @@
-slcballet
+SLCBallet
 =========
 
-Salt Lake City Ballet - A registration web site
+A registration web site, custom built for the Salt Lake City Ballet.
