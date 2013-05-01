@@ -1,0 +1,703 @@
+@CHARSET "ISO-8859-1";
+
+.page {
+    min-width: 1000px;
+    min-height: 700px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    bottom: 0;
+}
+
+.header {
+    position: absolute;
+    top: 0;
+    height: 180px;
+    width: 100%;
+    background: url('../img/MastheadLogo-100.png') no-repeat center 20px;
+}
+
+.headline {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 2px 0;
+    text-align: center;
+    font-family: Palatino-Italic, Palatino, serif;
+    font-style: italic;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.headline-txt {
+    font-size: 30px;
+    font-family: ChopinScript, Georgia, Palatino;
+    color: #272727;
+}
+
+.headline-shadow {
+	position: absolute;
+	top: 180px;
+	height: 3px;
+	background: url('../img/shadow.png') repeat-x transparent scroll 0 0;
+	left: 0;
+	right: 0;
+}
+
+.right_brain {
+    position: absolute;
+    right: 0;
+    padding: 15px;
+    text-align: right;
+}
+
+.filter_level{
+    position: absolute !important;
+    bottom: 0;
+}
+
+.txt_filter_level {
+    display: inline-block;
+    width: 130px;
+    text-align: right;
+}
+
+.scrollpanel {
+    overflow: auto;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.lhn {
+    position: absolute;
+    top: 180px;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    background: #F7E7D7 none no-repeat center;
+    left: 0;
+}
+
+.lhn_group {
+    margin: 10px 10px 0 10px;
+    border: 1px solid #D2D6C8;
+    border-radius: 10px;
+}
+
+.lhn_group h2 {
+    padding: 4px 4px 4px 16px;
+    background: #FCEBE1 none no-repeat center;
+    border-radius: 10px 10px 0 0;
+    font-family: Georgia;
+    font-size: 20px;
+    font-style: italic;
+}
+
+/* container */
+.lhn_group div dl {
+    padding: 11px;
+}
+
+/* section title (students, adults) */
+.lhn_group div dl dt {
+    margin: 0 4px 4px 4px;
+    font-family: Georgia;
+    font-size: 16px;
+    font-style: italic;
+}
+/* section sub-title (registration is as easy as) */
+.lhn_group div dl dd {
+    margin: 0 0 0 22px;
+}
+
+/* complex list */
+.lhn_group div dl dd ol {
+    margin: 5px 0 0 22px;
+    list-style-type: decimal;
+}
+
+/* complex list items (how do i start) */
+.lhn_group div dl dd ol li {
+    padding: 0 0 4px;
+}
+
+/* simple list */
+.lhn_group div ul {
+    margin: 11px;
+}
+
+/* simple list items (i want to list) */
+.lhn_group div ul li {
+    padding: 0 0 4px;
+}
+
+.main {
+    background: #D2D6C8 none no-repeat center;
+    position: absolute;
+    top: 180px;
+    width: 0;
+    right: 0;
+    bottom: 0;
+    right: 0;
+    display: none;
+}
+
+.main_group {
+    margin: 10px 10px 0 10px;
+    border: 1px solid #FCEBE1;
+    border-radius: 10px;
+}
+
+.main_group h2 {
+    padding: 4px 4px 4px 16px;
+    background: #FCEBE1 none no-repeat center;
+    border-radius: 10px 10px 0 0;
+    font-family: Georgia;
+    font-size: 20px;
+    font-style: italic;
+}
+
+/* content */
+.main_group .content {
+    padding: 11px;
+}
+
+#pan_students {
+    padding: 0 0 11px 0;
+}
+
+.main_group_panel .title {
+    padding: 0 0 10px 0;
+}
+
+.main_group_panel .button {
+    background: white none no-repeat 5px center;
+    text-align: right;
+    left: 30px;
+    height: 30px;
+    display: inline-block;
+}
+
+#lnk_addstuds {
+    background: transparent url('../img/plus.png') no-repeat 5px center;
+    text-align: right;
+    display: inline-block;
+    line-height: 30px;
+    padding: 0 5px 0 25px;
+}
+
+#lnk_browse {
+    background: transparent url('../img/magnifier.png') no-repeat 5px center;
+    text-align: right;
+    display: inline-block;
+    line-height: 30px;
+    padding: 0 5px 0 25px;
+}
+
+.portlet {
+    margin: 7px;
+    position: relative;
+}
+
+.portlet-header {
+    margin: 3px;
+    padding: 2px 4px 5px;
+}
+
+.portlet-header .ui-icon {
+    float: right;
+}
+
+.portlet-content {
+    margin: 6px;
+	overflow-x: auto;
+	overflow-y: hidden;
+}
+
+.portlet-wonderful {
+    padding: 6px;
+}
+
+.portlet-img {
+	height: 84px;
+	width: 84px;
+	float: left;
+    position: relative;
+    padding: 10px;
+    margin: 0 15px 10px 0;
+}
+
+.portlet-img-inner {
+    position: absolute;
+    top: 10px;
+    bottom: 10px;
+    left: 10px;
+    right: 10px;
+}
+
+.portlet-description {
+    padding: 10px 28px 28px 28px;
+}
+
+.portlet-button-panel {
+    position: absolute;
+    right: 2px;
+    bottom: 0;
+}
+
+.portlet-more {
+    margin: 0 15px 0 0;
+}
+
+.portlet-register {
+    margin: 4px 6px 3px 0;
+}
+
+.more-headline {
+    margin: 6px;
+    padding: 6px 11px;
+}
+
+.more-headline-title {
+    font-size: 30px;
+    font-family: ChopinScript, Georgia, Palatino;
+    font-weight: normal;
+}
+
+.more-headline-subtxt {
+    font-family: Palatino-Italic, Palatino, serif;
+    font-style: italic;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.more-headline-sublnk {
+    font-family: Palatino-Italic, Palatino, serif;
+    font-style: normal;
+    font-size: 13px;
+    font-weight: normal;
+    line-height: 26px;
+    margin: 0 0 0 18px;
+    float: right;
+}
+
+.more-headline-subbutton {
+    font-family: Palatino-Italic, Palatino, serif;
+    font-style: italic;
+    font-size: 16px;
+    line-height: 26px;
+    margin: 0 0 0 18px;
+    float: right;
+}
+
+.more-img {
+    height: 290px;
+    width: 200px;
+    float: left;
+    position: relative;
+    padding: 10px;
+    margin: 22px 10px 6px 6px;
+}
+
+.more-img-inner {
+	position:absolute;
+	top:10px;
+	bottom:10px;
+	left:10px;
+	right:10px;
+}
+
+.more-first {
+    display: none;
+}
+
+.more-second {
+    display: none;
+}
+
+.more-third {
+    display: none;
+}
+
+.more-content {
+    margin: 26px 26px 0 26px;
+}
+
+.more-price {
+    float: right;
+    font-style: italic;
+    font-size: larger;
+}
+
+.more-inline {
+    font-weight: bold;
+}
+
+.more-level {
+    color: #692727;
+}
+
+.calendar-month {
+    background-image: url("../img/calendar-month.png");
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+}
+
+#attending {
+	padding: 0 0 0 120px;
+}
+
+.register-infos {
+    margin: 16px 0;
+    width: 430px;
+}
+
+.register-infos-short {
+	/*width: 250px;*/
+}
+
+.register-infos input {
+    width: 290px;
+}
+
+.register-infos input[name='student_city'], .register-infos input[name='gaurdian_city'] {
+    width: 127px;
+}
+
+.register-infos input[name='student_phone'], .register-infos input[name='gaurdian_phone'],
+.register-infos input[name='emergency_phone'], .register-infos input[name='student_zip'], 
+.register-infos input[name='gaurdian_zip'], .register-infos input[name='adult_phone'] {
+    width: 90px;
+}
+
+.register-infos input[type='checkbox'] {
+    width: 20px;
+}
+
+.register-section {
+    margin: 7px;
+    position: relative;
+}
+
+.register-section-header {
+    margin: 3px;
+    padding: 2px 4px 5px;
+}
+
+.register-section-header a {
+    font-weight: normal;
+    margin: 0 0 0 10px;
+}
+
+.register-section-content {
+    margin: 6px;
+}
+
+.register-label {
+    display: inline-block;
+    width: 120px;
+    text-align: right;
+}
+
+.register-infos .state {
+    width: 45px;
+}
+
+.register-sublabel {
+    left:123px;
+    font: 11px arial;
+    text-align: right;
+    min-width: 120px;
+    top: -3px;
+    position: relative;
+    color: gray;
+}
+
+.register-content-paragraph {
+    color: gray;
+    font-style: italic;
+}
+
+.register-error {
+	border: 1px solid #692727;
+	border-radius: 5px;
+}
+
+.txt-register-error {
+	color: #692727;
+}
+
+.pan_has_gaurdians {
+	position: absolute;
+	top: 5px;
+	right: 15px;
+	line-height: 20px;
+}
+
+.pan_has_students {
+	position: absolute;
+	top: 5px;
+	right: 15px;
+	line-height: 20px;
+}
+
+.txt_gaurdian_info {
+	height: 20px;
+	line-height: 20px;
+}
+
+.txt_student_info {
+	height: 20px;
+	line-height: 20px;
+}
+
+.txt_select_gaurdian {
+	display: inline-block;
+	margin: 0 10px 0 0;
+}
+
+.txt_select_student {
+	display: inline-block;
+	margin: 0 10px 0 0;
+}
+
+.register-notice-gaurdians {
+	margin-top: 20px;
+	padding: 0 .7em;
+	line-height: 15px;
+	width: 369px;
+}
+
+.register-paragraph {
+	margin: 0 25px;
+}
+
+.conf_number {
+	color: #6d1711;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+#click_here_same {
+    position: relative;
+    left: 124px;
+}
+
+
+.headline-cancel {
+    position: relative;
+    display: block;
+    height: 34px;
+    width: 62px;
+}
+
+.headline-cancel .ui-icon {
+    position: absolute;
+    top: 9px;
+}
+
+.headline-cancel .txt {
+    line-height: 34px;
+    display: inline-block;
+    position: absolute;
+    right: 3px;
+}
+
+.overview-label {
+    display: inline-block;
+    width: 175px;
+    text-align: right;
+}
+
+.overview-value {
+	color: #6d1711;
+	font: 12px/24px sans-serif;
+	font-weight: bold;
+	white-space:nowrap;
+}
+
+.overview-enrolled-in {
+}
+
+.overview-conf-num {
+	font-style: italic;
+	white-space: nowrap;
+	line-height: 24px;
+}
+
+.overview-value-class {
+	display: inline-block;
+	vertical-align: top;
+	line-height: 24px;
+}
+
+.overview-class-level {
+	white-space: nowrap;
+}
+
+.lg_1 {background-image: url("../img/classes/childrens_lg.png");}
+.sm_1 {background-image: url("../img/classes/childrens_sm.png");}
+.lg_39 {background-image: url("../img/classes/childrens_lg.png");}
+.sm_39 {background-image: url("../img/classes/childrens_sm.png");}
+.lg_2 {background-image: url("../img/classes/parent_child_lg.png");}
+.sm_2 {background-image: url("../img/classes/parent_child_sm.png");}
+.lg_48 {background-image: url("../img/classes/parent_child_lg.png");}
+.sm_48 {background-image: url("../img/classes/parent_child_sm.png");}
+.lg_3 {background-image: url("../img/classes/pre_ballet_lg.png");}  
+.sm_3 {background-image: url("../img/classes/pre_ballet_sm.png");}  
+.lg_4 {background-image: url("../img/classes/creative_lg.png");}
+.sm_4 {background-image: url("../img/classes/creative_sm.png");}
+.lg_5 {background-image: url("../img/classes/creative_lg.png");}
+.sm_5 {background-image: url("../img/classes/creative_sm.png");}
+.lg_41 {background-image: url("../img/classes/creative_lg.png");}
+.sm_41 {background-image: url("../img/classes/creative_sm.png");}
+.lg_6 {background-image: url("../img/classes/intro_btech_lg.png");}
+.sm_6 {background-image: url("../img/classes/intro_btech_sm.png");}
+.lg_40 {background-image: url("../img/classes/intro_btech_lg.png");}
+.sm_40 {background-image: url("../img/classes/intro_btech_sm.png");}
+.lg_7 {background-image: url("../img/classes/intro_btech_lg.png");} 
+.sm_7 {background-image: url("../img/classes/intro_btech_sm.png");}
+.lg_8 {background-image: url("../img/classes/jazz_lg.png");}
+.sm_8 {background-image: url("../img/classes/jazz_sm.png");}
+.lg_9 {background-image: url("../img/classes/character_lg.png");}
+.sm_9 {background-image: url("../img/classes/character_sm.png");}
+.lg_10 {background-image: url("../img/classes/grade1_btech_lg.png");}
+.sm_10 {background-image: url("../img/classes/grade1_btech_sm.png");}
+.lg_42 {background-image: url("../img/classes/grade1_btech_lg.png");}
+.sm_42 {background-image: url("../img/classes/grade1_btech_sm.png");}
+.lg_11 {background-image: url("../img/classes/jazz_lg.png");}
+.sm_11 {background-image: url("../img/classes/jazz_sm.png");}
+.lg_12 {background-image: url("../img/classes/character_lg.png");}
+.sm_12 {background-image: url("../img/classes/character_sm.png");}
+.lg_13 {background-image: url("../img/classes/grade2_btech_lg.png");}
+.sm_13 {background-image: url("../img/classes/grade2_btech_sm.png");}
+.lg_44 {background-image: url("../img/classes/grade2_btech_lg.png");}
+.sm_44 {background-image: url("../img/classes/grade2_btech_sm.png");}
+.lg_14 {background-image: url("../img/classes/grade2_pre_pointe_lg.png");}
+.sm_14 {background-image: url("../img/classes/grade2_pre_pointe_sm.png");}
+.lg_43 {background-image: url("../img/classes/grade2_pre_pointe_lg.png");}
+.sm_43 {background-image: url("../img/classes/grade2_pre_pointe_sm.png");}
+.lg_15 {background-image: url("../img/classes/grade3_btech_lg.png");}
+.sm_15 {background-image: url("../img/classes/grade3_btech_sm.png");}
+.lg_16 {background-image: url("../img/classes/character_lg.png");}
+.sm_16 {background-image: url("../img/classes/character_sm.png");}
+.lg_45 {background-image: url("../img/classes/character_lg.png");}
+.sm_45 {background-image: url("../img/classes/character_sm.png");}
+.lg_17 {background-image: url("../img/classes/grade3_pointe_lg.png");}
+.sm_17 {background-image: url("../img/classes/grade3_pointe_sm.png");}
+.lg_47 {background-image: url("../img/classes/grade3_pointe_lg.png");}
+.sm_47 {background-image: url("../img/classes/grade3_pointe_sm.png");}
+.lg_18 {background-image: url("../img/classes/adult_truly_beg_lg.png");}
+.sm_18 {background-image: url("../img/classes/adult_truly_beg_sm.png");}
+.lg_19 {background-image: url("../img/classes/ballet_fit_lg.png");}
+.sm_19 {background-image: url("../img/classes/ballet_fit_sm.png");}
+.lg_20 {background-image: url("../img/classes/adult_beg_int_lg.png");}
+.sm_20 {background-image: url("../img/classes/adult_beg_int_sm.png");}
+.lg_21 {background-image: url("../img/classes/zumba_lg.png");}
+.sm_21 {background-image: url("../img/classes/zumba_sm.png");}
+.lg_22 {background-image: url("../img/classes/master_class_lg.png");}
+.sm_22 {background-image: url("../img/classes/master_class_sm.png");}
+.lg_46 {background-image: url("../img/classes/canada_lg.png");}
+.sm_46 {background-image: url("../img/classes/canada_sm.png");}
+.lg_51 {background-image: url("../img/classes/pre-ballet_jump_lg.png");}
+.sm_51 {background-image: url("../img/classes/pre-ballet_jump_sm.png");}
+.lg_52 {background-image: url("../img/classes/52l.png");}
+.sm_52 {background-image: url("../img/classes/52s.png");}
+.lg_53 {background-image: url("../img/classes/53l.png");}
+.sm_53 {background-image: url("../img/classes/53s.png");}
+.lg_54 {background-image: url("../img/classes/55l.png");}
+.sm_54 {background-image: url("../img/classes/55s.png");}
+.lg_55 {background-image: url("../img/classes/55l.png");}
+.sm_55 {background-image: url("../img/classes/55s.png");}
+.lg_56 {background-image: url("../img/classes/56l.png");}
+.sm_56 {background-image: url("../img/classes/56s.png");}
+.lg_57 {background-image: url("../img/classes/57l.png");}
+.sm_57 {background-image: url("../img/classes/57s.png");}
+.lg_58 {background-image: url("../img/classes/58l.png");}
+.sm_58 {background-image: url("../img/classes/58s.png");}
+.lg_59 {background-image: url("../img/classes/59l.png");}
+.sm_59 {background-image: url("../img/classes/59s.png");}
+.lg_60 {background-image: url("../img/classes/60l.png");}
+.sm_60 {background-image: url("../img/classes/60s.png");}
+.lg_61 {background-image: url("../img/classes/61l.png");}
+.sm_61 {background-image: url("../img/classes/61s.png");}
+.lg_62 {background-image: url("../img/classes/62l.png");}
+.sm_62 {background-image: url("../img/classes/62s.png");}
+.lg_63 {background-image: url("../img/classes/63l.png");}
+.sm_63 {background-image: url("../img/classes/63s.png");}
+.lg_64 {background-image: url("../img/classes/64l.png");}
+.sm_64 {background-image: url("../img/classes/64s.png");}
+.lg_65 {background-image: url("../img/classes/65l.png");}
+.sm_65 {background-image: url("../img/classes/65s.png");}
+.lg_66 {background-image: url("../img/classes/66l.png");}
+.sm_66 {background-image: url("../img/classes/66s.png");}
+.lg_67 {background-image: url("../img/classes/67l.png");}
+.sm_67 {background-image: url("../img/classes/67s.png");}
+.lg_68 {background-image: url("../img/classes/68l.png");}
+.sm_68 {background-image: url("../img/classes/68s.png");}
+.lg_69 {background-image: url("../img/classes/69l.png");}
+.sm_69 {background-image: url("../img/classes/69s.png");}
+.lg_70 {background-image: url("../img/classes/70l.png");}
+.sm_70 {background-image: url("../img/classes/70s.png");}
+.lg_71 {background-image: url("../img/classes/71l.png");}
+.sm_71 {background-image: url("../img/classes/71s.png");}
+.lg_72 {background-image: url("../img/classes/72l.png");}
+.sm_72 {background-image: url("../img/classes/72s.png");}
+.lg_73 {background-image: url("../img/classes/73l.png");}
+.sm_73 {background-image: url("../img/classes/73s.png");}
+.lg_76 {background-image: url("../img/classes/pre-ballet_jump_lg.png");}
+.sm_76 {background-image: url("../img/classes/pre-ballet_jump_sm.png");}
+.lg_77 {background-image: url("../img/classes/56l.png");}
+.sm_77 {background-image: url("../img/classes/56s.png");}
+.lg_78 {background-image: url("../img/classes/59l.png");}
+.sm_78 {background-image: url("../img/classes/59s.png");}
+.lg_79 {background-image: url("../img/classes/61l.png");}
+.sm_79 {background-image: url("../img/classes/61s.png");}
+.lg_80 {background-image: url("../img/classes/62l.png");}
+.sm_80 {background-image: url("../img/classes/62s.png");}
+.lg_81 {background-image: url("../img/classes/63l.png");}
+.sm_81 {background-image: url("../img/classes/63s.png");}
+.lg_82 {background-image: url("../img/classes/64l.png");}
+.sm_82 {background-image: url("../img/classes/64s.png");}
+.lg_83 {background-image: url("../img/classes/69l.png");}
+.sm_83 {background-image: url("../img/classes/69s.png");}
+.lg_84 {background-image: url("../img/classes/65l.png");}
+.sm_84 {background-image: url("../img/classes/65s.png");}
+.lg_85 {background-image: url("../img/classes/67l.png");}
+.sm_85 {background-image: url("../img/classes/67s.png");}
+.lg_86 {background-image: url("../img/classes/66l.png");}
+.sm_86 {background-image: url("../img/classes/66s.png");}
+.lg_87 {background-image: url("../img/classes/68l.png");}
+.sm_87 {background-image: url("../img/classes/68s.png");}
+.lg_88 {background-image: url("../img/classes/70l.png");}
+.sm_88 {background-image: url("../img/classes/70s.png");}
+.lg_89 {background-image: url("../img/classes/71l.png");}
+.sm_89 {background-image: url("../img/classes/71s.png");}
+.lg_90 {background-image: url("../img/classes/72l.png");}
+.sm_90 {background-image: url("../img/classes/72s.png");}
+.lg_91 {background-image: url("../img/classes/73l.png");}
+.sm_91 {background-image: url("../img/classes/73s.png");}
+.lg_100 {background-image: url("../img/classes/71l.png");}
+.sm_100 {background-image: url("../img/classes/71s.png");}
+.lg_99 {background-image: url("../img/classes/70l.png");}
+.sm_99 {background-image: url("../img/classes/70s.png");}
+.lg_97 {background-image: url("../img/classes/70l.png");}
+.sm_97 {background-image: url("../img/classes/70s.png");}
+.lg_98 {background-image: url("../img/classes/66l.png");}
+.sm_98 {background-image: url("../img/classes/66s.png");}
+.lg_96 {background-image: url("../img/classes/62l.png");}
+.sm_96 {background-image: url("../img/classes/62s.png");}
+.lg_94 {background-image: url("../img/classes/58l.png");}
+.sm_94 {background-image: url("../img/classes/58s.png");}
+.lg_95 {background-image: url("../img/classes/56l.png");}
+.sm_95 {background-image: url("../img/classes/56s.png");}
+.lg_92 {background-image: url("../img/classes/53l.png");}
+.sm_92 {background-image: url("../img/classes/53s.png");}
+.lg_93 {background-image: url("../img/classes/52l.png");}
+.sm_93 {background-image: url("../img/classes/52s.png");}

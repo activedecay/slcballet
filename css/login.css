@@ -1,0 +1,150 @@
+@CHARSET "ISO-8859-1";
+
+#wrapper {
+	height: 0px; /* set to taste */
+	/* required */
+	position: absolute;
+	overflow: visible;
+	display: block;
+	width: 100%;
+	left: 0px;
+	top: 50%;
+}
+
+#center {
+	position: relative; /* to space the exists/newbs */
+	overflow: visible; /* set to taste */
+	position: absolute; /* required */
+	left: 50%; /* required */
+	margin-left: -200px; /* half of width */
+	width: 400px; /* width of div */
+	height: 330px; /* height of div */
+	top: -165px; /* half of height */
+}
+
+#exists {
+	width: 400px;
+	position: absolute;
+	top: 0;
+	bottom: 30px;
+	background-color: #C7C7C7;
+}
+
+#passx {
+	width: 400px;
+	position: absolute;
+	top: 0;
+	bottom: 30px;
+	background-color: #C79F9F;
+}
+
+#newbs {
+	width: 400px;
+	position: absolute;
+	top: 0;
+	bottom: 30px;
+	display: none;
+	background-color: #F9E9D9;
+}
+
+.foot {
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+	height: 30px;
+	text-align: center;
+}
+
+.lnk_special {
+	color: #561B19;
+	text-decoration: none;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 26px;
+}
+
+.logo {
+	background: url(../img/MastheadLogo-33.png) no-repeat center;
+	width: 100%;
+	height: 76px;
+	top: -76px;
+	position: absolute;
+}
+
+.whereami {
+	font: 14px bold georgia, garamond, serif;
+	text-align: center;
+}
+
+.h1_header {
+	font-size: 40px;
+	padding: 4px 0;
+}
+
+.p_whami {
+	padding: 3px;
+}
+
+.txt_label {
+	color: #425773;
+	font: 12px Arial bold;
+	display: inline-block;
+	padding-right: 10px;
+	text-align: right;
+	width: 150px;
+}
+
+.p_input {
+	padding: 10px;
+}
+
+.txt_ex {
+	position: relative;
+	text-align: right;
+	font: 11px arial;
+	top: -5px;
+	height: 12px;
+	color: #AA2C1E;
+	right: 75px;
+}
+
+.ebx_input {
+	width: 150px;
+	padding: 3px;
+	margin: 0;
+	background-color: white;
+	border: 1px solid gray;
+}
+
+.ebx_error {
+	background-color: #FFF5F5;
+	border: #B61F3A 1px solid;
+}
+
+.btn_container {
+	position: relative;
+	height: 30px;
+}
+
+.btn_login {
+	position: absolute;
+	right: 75px;
+	top: 0;
+}
+
+.err {
+	margin: 8px;
+	color: #981B1B;
+	font-size: 14px;
+	text-align: center;
+}
+
+.success {
+	padding: 0 8px;
+	color: #561B19;
+	font-size: 14px;
+	text-align: center;
+	border-radius: 5px;
+	margin: 5px;
+	background-color:#F9E9D9;
+}

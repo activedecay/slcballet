@@ -1,0 +1,163 @@
+a {
+	color:#561B19;
+	text-decoration:none;
+}
+a:HOVER {
+	color:#D2D6C8;
+	text-decoration:underline !important;
+}
+a:VISITED {
+	color:#561B19;
+	text-decoration:none;
+}
+
+.paper {background-color:#F7F4EB;}
+
+/* the next 5 colors are called "ballet school". 
+	credit goes to colormemilk, 
+	and can be found on colourlovers.com */
+.rosewater{background-color:#EFD9C8;}
+.legs{background-color:#FCEBE1;}
+.cottagewall{background-color:#D2D6C8;}
+.slate{background-color:#A1ADA4;}
+.graceful{background-color:#F1EEE0;}
+
+/* the next 5 colors are called "degas at the ballet". 
+	credit goes to mierlagypsy, 
+	and can be found on colourlovers.com */
+.footlights{background-color:#AFA984;}
+.toeshoes{background-color:#E4B492;}
+.primapink{background-color:#E88D76;}
+.orchestra{background-color:#301811;}
+.putty{background-color:#89793E;}
+
+.rosewater-txt{color:#EFD9C8;}
+.legs-txt{color:#FCEBE1;}
+.cottagewall-txt{color:#D2D6C8;}
+.slate-txt{color:#A1ADA4;}
+.graceful-txt{color:#F1EEE0;}
+
+.rosewater-border{border:1px solid #EFD9C8;}
+.legs-border{border:1px solid #FCEBE1;}
+.cottagewall-border{border:1px solid #D2D6C8;}
+.slate-border{border:1px solid #A1ADA4;}
+.graceful-border{border:1px solid #F1EEE0;}
+
+@font-face {
+    font-family: ChopinScript;
+    src: url("../fonts/ChopinScript.eot");
+    src: local("÷Œ"), 
+    	url("../fonts/ChopinScript.otf") format("opentype");
+}
+.chopin {
+    font-family: ChopinScript, Georgia, serif;
+
+}
+
+.report-heading {
+	margin: 10px;
+	font-size: 30px;
+}
+
+.report-table-container {
+	/*display: inline-block;*/
+	padding: 0 0 0 20px;
+	min-width: 40%;
+}
+
+
+.report-table-container table {
+	/*width: 100%;*/
+    color: #555;
+}
+
+
+.report-table-container table td {
+	display: inline-block;
+	padding: 3px 8px;
+	white-space: nowrap;
+
+}
+
+.reports-body {
+	font: 11px Arial,sans-serif;
+}
+
+.report-table-header {
+	cursor:pointer;
+	text-decoration: underline;
+	padding: 5px;
+	background-color: #6d1711;
+	color: white;
+}
+
+.report-filter {
+	padding: 10px 0 0 20px;
+}
+
+.sorted-asc {
+	color: green;
+}
+
+.sorted-desc {
+	color: red;
+}
+
+.odd {
+	background-color: #ddd;
+	color: #000;
+}
+
+.hovered {
+	background-color: #cad9e6;
+	color: #0b4955;
+}
+
+.result {
+	padding: 3px 20px;
+	line-height: 28px;
+	margin: 0 5px;
+}
+.result-error {
+	background: #E98686;
+}
+.result-success {
+	background: #97D89A;
+}
+
+.de_attr {
+	width: 240px;
+	display: inline-block;
+	font-weight: bold;
+	text-align: right;
+}
+
+.de-submit {
+	position: absolute !important;
+	right: 0;
+	bottom: 0;
+}
+
+.de-entry-continer {
+	margin: 20px;
+	position: relative;
+}
+
+.reload {
+	margin: 0 20px;
+}
+
+table tbody tr td.hide {
+	display: none;
+}
+
+table thead tr th.hide {
+	display: none;
+}
+
+.ui-timepicker-div .ui-widget-header { margin-bottom: 8px; }
+.ui-timepicker-div dl { text-align: left; }
+.ui-timepicker-div dl dt { height: 25px; margin-bottom: -25px; }
+.ui-timepicker-div dl dd { margin: 0 10px 10px 65px; }
+.ui-timepicker-div td { font-size: 90%; }
+.ui-tpicker-grid-label { background: none; border: none; margin: 0; padding: 0; }
